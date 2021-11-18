@@ -2,7 +2,7 @@
     "name": "john/job_log",
     "autoload": {
         "psr-4": {
-            "app\\": ""
+            "app\\": "./"
         }
     },
     "authors": [
