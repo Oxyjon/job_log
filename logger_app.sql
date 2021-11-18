@@ -67,8 +67,8 @@ CREATE TABLE `ticket` (
 --
 
 INSERT INTO `ticket` (`id`, `title`, `firstName`, `lastName`, `device`, `status`, `location`, `body`, `createdDate`, `dateDue`, `bookedBy`, `phoneNumber`, `quotedPrice`) VALUES
-(1, 'Windows Reinstall', 'John', 'Smith', 'Coolermaster', 'Pending', 'Blacktown', 'Windows Reinstall', '18-11-2021', '23-11-2021', 'NA', '04 123 456 789', '109'),
-(2, 'Virus Clean', 'Steve', 'Williams', 'Thermaltake', 'In Progress', 'Blacktown', 'Virus Clean', '18-11-2021', '23-11-2021', 'AH', '04 987 654 321', '145');
+(27, 'Windows Reinstall', 'John', 'Smith', 'Coolermaster', 'Pending', 'Blacktown', 'Windows Reinstall', '18-11-2021', '23-11-2021', 'NA', '04 123 456 789', '109'),
+(28, 'Virus Clean', 'Steve', 'Williams', 'Thermaltake', 'In Progress', 'Blacktown', 'Virus Clean', '18-11-2021', '23-11-2021', 'AH', '04 987 654 321', '145');
 
 --
 -- Indexes for dumped tables
