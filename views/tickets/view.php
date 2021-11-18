@@ -1,4 +1,5 @@
-<?php ob_start(); //Check header data ?>
+<?php ob_start(); //Check header data 
+?>
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
     <h1 class="h2"><?php echo $ticket['title'] ?></h1>
     <div class="btn-toolbar mb-2 mb-md-0">
@@ -27,12 +28,16 @@
     <?php echo $ticket['body'] ?>
     </p>
 </div>
+<hr>
+<div>
+    <h6>Notes</h6>
+    <?php foreach ($notes as $note) : ?>
+        <p>
+            <?php echo $note['body'] ?>
+        </p>
+    <?php endforeach ?>
+</div>
 
-<?php foreach ($notes as $note) : ?>
-    <p>
-        <?php echo $note['body'] ?>
-    </p>
-<?php endforeach ?>
 <hr>
 <!-- Error Handling -->
 <?php if (!empty($errors)) : ?>

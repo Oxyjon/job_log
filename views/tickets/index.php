@@ -37,8 +37,8 @@
         <td><?php echo $ticket['status'] ?></td>
         <td><?php echo $ticket['dateDue'] ?></td>
         <td>
-          <a href="/tickets/update?id=<?php echo $ticket['id'] ?>" type="button" class="btn btn-sm btn-outline-primary">Edit</a>
           <a href="/tickets/view?id=<?php echo $ticket['id'] ?>" type="button" class="btn btn-sm btn-outline-info">View</a>
+          <a href="/tickets/update?id=<?php echo $ticket['id'] ?>" type="button" class="btn btn-sm btn-outline-primary">Edit</a>
           <form style="display: inline-block;" method="post" action="/tickets/delete">
             <input type="hidden" name="id" value="<?php echo $ticket['id'] ?>">
             <button type="submit" class="btn btn-sm btn-outline-danger">Delete</button>

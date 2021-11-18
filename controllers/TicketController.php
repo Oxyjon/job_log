@@ -162,7 +162,7 @@ class TicketController
             // check for errors and save to db
             if (empty($errors)) {
                 // if no errors, redirect back and complete save
-                header('Location: /tickets');
+                header("Location: /tickets/view?id=$id");
                 exit;
             }
         }
