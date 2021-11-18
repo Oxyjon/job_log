@@ -3,7 +3,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use app\Router;
-use app\controllers\TicketController;
+use app\Controllers\TicketController;
 
 
 $router = new Router();
