@@ -6,7 +6,7 @@ use PDO;
 use app\models\Ticket;
 use app\models\Note;
 
-class Database
+class database
 {
     // Entry into DB
     public \PDO $pdo;
