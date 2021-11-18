@@ -1,0 +1,15 @@
+{
+    "name": "john/job_log",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oxyjon",
+            "email": "47044069+Oxyjon@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
