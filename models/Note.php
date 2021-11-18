@@ -2,7 +2,7 @@
 
 namespace app\models;
 
-use app\Database;
+use app\database;
 
 class Note
 {
