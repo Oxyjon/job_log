@@ -1,6 +1,6 @@
 <?php
 
-namespace app\Controllers;
+namespace app\controllers;
 // Imports
 use app\models\Ticket;
 use app\models\Note;
