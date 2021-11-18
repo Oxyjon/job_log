@@ -6,9 +6,9 @@ use PDO;
 use app\models\Ticket;
 use app\models\Note;
 
-
 class Database
 {
+    // Entry into DB
     public \PDO $pdo;
     public static Database $db;
 
